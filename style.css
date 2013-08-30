@@ -1,0 +1,44 @@
+
+graph{
+    fill-color: black;
+}
+
+node.moving {
+    size: 12px, 12px;
+    shape: circle;
+    fill-color: darkblue;
+    stroke-mode: plain;
+    stroke-color: lightblue;
+    stroke-width: 2px;
+}
+
+node.moving2 {
+    size: 12px, 12px;
+    shape: triangle;
+    fill-color: orange;
+    stroke-mode: plain;
+    stroke-color: yellow;
+    stroke-width: 2px;
+}
+
+node.moving3 {
+    size: 12px, 12px;
+    shape: cross;
+    fill-color: darkgreen;
+    stroke-mode: plain;
+    stroke-color: lightgreen;
+    stroke-width: 2px;
+}
+
+
+node.grid {
+    size: 0px, 0px;
+    shape: box;
+    fill-color: darkblue;
+    stroke-mode: plain;
+    stroke-color: grey;
+}
+
+edge {
+	fill-color: white;
+}
